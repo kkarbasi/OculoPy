@@ -6,21 +6,22 @@ This code has been tested on Python 3. Required packages can be found in [requir
 ## Usage
 
 Assuming horizonal eye trace is in eye_x and vertical eye_trace is in eye_y:
-Fs: sampling frequency
-eye_x_t: horizontal eye trace timestamps 
-eye_y_t: vertical eye trace timestamps
+
+- _Fs_: sampling frequency
+- _eye_x_t_: horizontal eye trace timestamps 
+- _eye_y_t_: vertical eye trace timestamps
 
 `from OculoPy import SaccadeDetector`
 
-`new_session = SaccadeDetector(HE = eye_x, t_HE = eye_x_t, VE = eye_y, t_VE = eye_y_t, eye_fs = Fs)
+`new_session = SaccadeDetector(HE = eye_x, t_HE = eye_x_t, VE = eye_y, t_VE = eye_y_t, eye_fs = Fs)`
 `new_session.run()`
 
 After a successful run the indices for detected saccades can be accessed through following class variables:
-new_session.saccade_onsets: saccade onset indices
-new_session.saccade_offsets: saccade offset indices
+* __new_session.saccade_onsets:__ saccade onset indices
+* __new_session.saccade_offsets:__ saccade offset indices
 
-new_session.saccade_onset_times: saccade onset times
-new_session.saccade_offset_times: saccade offset times
+* __new_session.saccade_onset_times:__ saccade onset times
+* __new_session.saccade_offset_times:__ saccade offset times
 
 
  
