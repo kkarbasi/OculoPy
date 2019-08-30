@@ -14,7 +14,9 @@ Assuming horizonal eye trace is in eye_x and vertical eye_trace is in eye_y:
 `from OculoPy import SaccadeDetector`
 
 `new_session = SaccadeDetector(HE = eye_x, t_HE = eye_x_t, VE = eye_y, t_VE = eye_y_t, eye_fs = Fs)`
+
 `new_session._calc_saccade_velocity()`
+
 `new_session._detect_saccades()`
 
 After a successful run the indices for detected saccades can be accessed through following class variables:
