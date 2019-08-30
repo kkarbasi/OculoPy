@@ -8,11 +8,11 @@ class SaccadeDetector:
     """
 
     def __init__(self,
-            HT=None, t_HT=None,
-            VT=None, t_VT=None,
             HE, t_HE,
             VE, t_VE,
-            eye_fs):
+            eye_fs,
+            HT=None, t_HT=None,
+            VT=None, t_VT=None):
 
         self.HT = np.squeeze(HT)
         self.t_HT = np.squeeze(t_HT)
