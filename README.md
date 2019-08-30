@@ -1,4 +1,4 @@
-OculoPy: Python package for saccade detection
+# OculoPy: Python package for saccade detection
 
 ## System requirements:
 This code has been tested on Python 3. Required packages can be found in [requirements.txt](https://github.com/kkarbasi/OculoPy/blob/master/requirements.txt)
